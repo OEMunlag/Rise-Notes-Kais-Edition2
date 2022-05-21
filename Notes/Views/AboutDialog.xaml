@@ -149,14 +149,12 @@
                     </muxc:Expander.Content>
                 </muxc:Expander>
                 <TextBlock x:Uid="More" Margin="15,10,0,10" Text="More"  FontSize="14" FontWeight="SemiBold" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
-                <muxc:InfoBar Margin="15,0,15,150" IsOpen="True" IsClosable="False" IsIconVisible="False" Height="61" VerticalAlignment="Bottom" Background="{StaticResource cl}">
+                <muxc:InfoBar Margin="15,0,15,150" IsOpen="True" IsClosable="False" IsIconVisible="False" Height="1" Background="{StaticResource cl}" RenderTransformOrigin="0.5,0.5" Width="22">
+                    <muxc:InfoBar.RenderTransform>
+                        <CompositeTransform ScaleY="1"/>
+                    </muxc:InfoBar.RenderTransform>
                     <Grid Height="60">
-                        <FontIcon Glyph="&#xE15F;" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="16" />
-                        <TextBlock Margin="30,-14,0,0" x:Uid="/About/Social" Height="23" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                         <TextBlock Margin="30,28,0,0" x:Uid="VersionTxt" Height="29" FontSize="12" HorizontalAlignment="Left" VerticalAlignment="Center" Opacity="0.7"/>
-                        <HyperlinkButton HorizontalAlignment="Right" Margin="0,0,15,0" Content="Reddit" NavigateUri="https://www.reddit.com/r/risesoftware/"/>
-                        <HyperlinkButton HorizontalAlignment="Right" Margin="0,0,90,0" Content="Twitter" NavigateUri="https://twitter.com/AppsbyRise"/>
-                        <HyperlinkButton HorizontalAlignment="Right" Margin="0,0,165,0" Content="Discord" NavigateUri="https://discord.gg/ex6Bhwnwth"/>
                     </Grid>
                 </muxc:InfoBar>
                 <muxc:InfoBar IsOpen="True" IsClosable="False" IsIconVisible="False"  Margin="15,-145,15,40" HorizontalAlignment="Stretch" MinHeight="51" VerticalAlignment="Top"  Background="{StaticResource cl}">
@@ -178,16 +176,20 @@
                     </muxc:InfoBar.Content>
                 </muxc:InfoBar>
                 <Grid Margin="0,-50,0,0" VerticalAlignment="Center">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="557*"/>
+                        <ColumnDefinition Width="141*"/>
+                    </Grid.ColumnDefinitions>
                     <TextBlock Text="©" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontFamily="Segoe UI" FontSize="18" Opacity="0.6" Margin="15,0,0,-2" Padding="0,0,0,0" FontWeight="SemiBold"/>
                     <FontIcon Glyph="&#xE00B;" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="345,0,0,1" FontSize="16" Opacity="0.6"/>
                     <TextBlock VerticalAlignment="Bottom" Margin="40,0,0,0" FontSize="14" Text="Rise" Opacity="0.6" HorizontalAlignment="Left" FontWeight="SemiBold"/>
-                    <TextBlock VerticalAlignment="Bottom" Margin="69,0,15,0" FontSize="14" Text="Software. Made with love in England &amp; Italy" Opacity="0.6"/>
-                    <HyperlinkButton x:Uid="/About/MoreCredits" HorizontalAlignment="Right" Margin="0,0,5,-2.5" NavigateUri="https://github.com/BlkDev9/Rise-Notes/tree/newreadme#credits" VerticalAlignment="Bottom" Height="25" FontSize="12" Padding="10,0,10,2" HorizontalContentAlignment="Right"/>
+                    <TextBlock VerticalAlignment="Bottom" Margin="69,0,15,0" FontSize="14" Text="Software. Made with love in England &amp; Italy" Opacity="0.6" Grid.ColumnSpan="2"/>
+                    <HyperlinkButton x:Uid="/About/MoreCredits" HorizontalAlignment="Right" Margin="0,0,5,-3" NavigateUri="https://github.com/BlkDev9/Rise-Notes/tree/newreadme#credits" VerticalAlignment="Bottom" Height="25" FontSize="12" Padding="10,0,10,2" HorizontalContentAlignment="Right" Grid.Column="1"/>
                 </Grid>
             </StackPanel>
         </ScrollViewer>
 
-        
+
         <AppBarButton Click="Button_Click" HorizontalAlignment="Right" VerticalAlignment="Top"  Margin="0,9,10,0" FontSize="10" Width="36" Height="44">
             <AppBarButton.Icon>
                 <FontIcon Glyph="&#xE10A;" Margin="1,-1,1,3" VerticalAlignment="Center" />
