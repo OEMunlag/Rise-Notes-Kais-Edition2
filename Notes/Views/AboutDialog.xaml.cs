@@ -86,5 +86,10 @@ namespace Notes.ViewModels
 
             var success = await Windows.System.Launcher.LaunchUriAsync(uriBing);
         }
+
+        private void ScrollViewer_ViewChanged(object sender, ScrollViewerViewChangedEventArgs e)
+        {
+
+        }
     }
 }
