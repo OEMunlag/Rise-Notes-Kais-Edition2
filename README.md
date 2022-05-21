@@ -2,7 +2,7 @@
 
 More details coming soon, 
 
-Original github where the original sourcecode is from: https://github.com/Rise-Software/Rise-Notes
+Original github where the original source code is from: https://github.com/Rise-Software/Rise-Notes
 
 ## Credits
 
