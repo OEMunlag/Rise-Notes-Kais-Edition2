@@ -1,4 +1,4 @@
-Rise Notes: Kai's Edition
+## Rise Notes: Kai's Edition
 
 More details coming soon, 
 
