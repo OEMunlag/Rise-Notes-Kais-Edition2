@@ -130,9 +130,9 @@
     <value>Submit feedback</value>
   </data>
   <data name="Sub.Text" xml:space="preserve">
-    <value>This is a modified version of Rise Software's Rise Notes (version Pre-Alpha 1).  As this is a pre-alpha, there will be a lot of bugs.</value>
+    <value>Remember this is the earliest possible look at our app. Please submit feedback and feature requests!</value>
   </data>
   <data name="Welc.Text" xml:space="preserve">
-    <value>Welcome to Rise Software: Kai's Edition!</value>
+    <value>Welcome to Pre-Alpha 1!</value>
   </data>
 </root>

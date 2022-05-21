@@ -30,10 +30,18 @@
                 <NavigationThemeTransition/>
             </TransitionCollection>
         </Grid.ChildrenTransitions>
-        <ScrollViewer VerticalAlignment="Top" Margin="0,50,0,-15" VerticalScrollBarVisibility="Hidden" ViewChanged="ScrollViewer_ViewChanged">
+        <ScrollViewer VerticalAlignment="Top" Margin="0,50,0,-15" VerticalScrollBarVisibility="Hidden">
             <StackPanel VerticalAlignment="Bottom" Padding="0,-130,0,0" Margin="0,0,0,0">
                 <Image Source="ms-appx:///Assets/IconReadme.png" Margin="15,140,0,5" HorizontalAlignment="Left" Width="211" Height="42" VerticalAlignment="Top"/>
-                <Grid VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,-40,160,0" Height="34"/>
+                <Grid VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,-40,160,0" Height="34">
+                    <TextBlock Text="Insider" FontSize="14" FontWeight="SemiBold" VerticalAlignment="Top"/>
+                    <TextBlock Text="Bloom" FontSize="12" VerticalAlignment="Bottom" Opacity="0.7" HorizontalAlignment="Left"/>
+                </Grid>
+                <AppBarButton x:Name="InsiderBt" HorizontalAlignment="Right" VerticalAlignment="Top"  Margin="0,-55,135,0" FontSize="10" Width="110" Height="65" CornerRadius="5,5,5,5" Click="InsiderBt_Click">
+                    <AppBarButton.Icon>
+                        <FontIcon Glyph="&#xECA7;" Margin="1,10,85,-10" VerticalAlignment="Center" HorizontalAlignment="Left" />
+                    </AppBarButton.Icon>
+                </AppBarButton>
                 <Grid VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0,-51,270,0" Height="34" Width="64">
                     <TextBlock x:Uid="/About/Version" FontSize="14" FontWeight="SemiBold" VerticalAlignment="Top"/>
                     <TextBlock Text="Pre-Alpha 1" FontSize="12" VerticalAlignment="Bottom" Opacity="0.7"/>
@@ -53,7 +61,7 @@
                     </AppBarButton.Icon>
                 </AppBarButton>
                 <muxc:TeachingTip x:Name="ins" x:Uid="/About/Sub"
-	           
+	                Target="{x:Bind InsiderBt}"
 	                IsLightDismissEnabled="True">
                     <muxc:TeachingTip.Content>
                         <Grid Margin="0,10,0,0">
@@ -141,12 +149,14 @@
                     </muxc:Expander.Content>
                 </muxc:Expander>
                 <TextBlock x:Uid="More" Margin="15,10,0,10" Text="More"  FontSize="14" FontWeight="SemiBold" VerticalAlignment="Bottom" HorizontalAlignment="Left"/>
-                <muxc:InfoBar Margin="15,0,15,150" IsOpen="True" IsClosable="False" IsIconVisible="False" Height="1" Background="{StaticResource cl}" RenderTransformOrigin="0.5,0.5" Width="22">
-                    <muxc:InfoBar.RenderTransform>
-                        <CompositeTransform ScaleY="1"/>
-                    </muxc:InfoBar.RenderTransform>
+                <muxc:InfoBar Margin="15,0,15,150" IsOpen="True" IsClosable="False" IsIconVisible="False" Height="61" VerticalAlignment="Bottom" Background="{StaticResource cl}">
                     <Grid Height="60">
+                        <FontIcon Glyph="&#xE15F;" Margin="0,0,0,0" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="16" />
+                        <TextBlock Margin="30,-14,0,0" x:Uid="/About/Social" Height="23" FontSize="14" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                         <TextBlock Margin="30,28,0,0" x:Uid="VersionTxt" Height="29" FontSize="12" HorizontalAlignment="Left" VerticalAlignment="Center" Opacity="0.7"/>
+                        <HyperlinkButton HorizontalAlignment="Right" Margin="0,0,15,0" Content="Reddit" NavigateUri="https://www.reddit.com/r/risesoftware/"/>
+                        <HyperlinkButton HorizontalAlignment="Right" Margin="0,0,90,0" Content="Twitter" NavigateUri="https://twitter.com/AppsbyRise"/>
+                        <HyperlinkButton HorizontalAlignment="Right" Margin="0,0,165,0" Content="Discord" NavigateUri="https://discord.gg/ex6Bhwnwth"/>
                     </Grid>
                 </muxc:InfoBar>
                 <muxc:InfoBar IsOpen="True" IsClosable="False" IsIconVisible="False"  Margin="15,-145,15,40" HorizontalAlignment="Stretch" MinHeight="51" VerticalAlignment="Top"  Background="{StaticResource cl}">
@@ -168,23 +178,24 @@
                     </muxc:InfoBar.Content>
                 </muxc:InfoBar>
                 <Grid Margin="0,-50,0,0" VerticalAlignment="Center">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="557*"/>
-                        <ColumnDefinition Width="141*"/>
-                    </Grid.ColumnDefinitions>
                     <TextBlock Text="©" VerticalAlignment="Bottom" HorizontalAlignment="Left" FontFamily="Segoe UI" FontSize="18" Opacity="0.6" Margin="15,0,0,-2" Padding="0,0,0,0" FontWeight="SemiBold"/>
                     <FontIcon Glyph="&#xE00B;" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="345,0,0,1" FontSize="16" Opacity="0.6"/>
                     <TextBlock VerticalAlignment="Bottom" Margin="40,0,0,0" FontSize="14" Text="Rise" Opacity="0.6" HorizontalAlignment="Left" FontWeight="SemiBold"/>
-                    <TextBlock VerticalAlignment="Bottom" Margin="69,0,15,0" FontSize="14" Text="Software. Made with love in England &amp; Italy" Opacity="0.6" Grid.ColumnSpan="2"/>
-                    <HyperlinkButton x:Uid="/About/MoreCredits" HorizontalAlignment="Right" Margin="0,0,5,-3" NavigateUri="https://github.com/BlkDev9/Rise-Notes/tree/newreadme#credits" VerticalAlignment="Bottom" Height="25" FontSize="12" Padding="10,0,10,2" HorizontalContentAlignment="Right" Grid.Column="1"/>
+                    <TextBlock VerticalAlignment="Bottom" Margin="69,0,15,0" FontSize="14" Text="Software. Made with love in England &amp; Italy" Opacity="0.6"/>
+                    <HyperlinkButton x:Uid="/About/MoreCredits" HorizontalAlignment="Right" Margin="0,0,5,-2.5" NavigateUri="https://github.com/BlkDev9/Rise-Notes/tree/newreadme#credits" VerticalAlignment="Bottom" Height="25" FontSize="12" Padding="10,0,10,2" HorizontalContentAlignment="Right"/>
                 </Grid>
             </StackPanel>
         </ScrollViewer>
 
-
+        
         <AppBarButton Click="Button_Click" HorizontalAlignment="Right" VerticalAlignment="Top"  Margin="0,9,10,0" FontSize="10" Width="36" Height="44">
             <AppBarButton.Icon>
                 <FontIcon Glyph="&#xE10A;" Margin="1,-1,1,3" VerticalAlignment="Center" />
+            </AppBarButton.Icon>
+        </AppBarButton>
+        <AppBarButton Click="AppBarButton_Click" HorizontalAlignment="Right" VerticalAlignment="Top"  Margin="0,9,55,0" FontSize="10" Width="36" Height="44">
+            <AppBarButton.Icon>
+                <FontIcon Glyph="&#xED15;" Margin="1,-1,1,3" VerticalAlignment="Center" />
             </AppBarButton.Icon>
         </AppBarButton>
         <TextBlock x:Uid="About" Margin="15,15,0,0" FontSize="24" FontWeight="SemiBold" VerticalAlignment="Top" HorizontalAlignment="Left"/>

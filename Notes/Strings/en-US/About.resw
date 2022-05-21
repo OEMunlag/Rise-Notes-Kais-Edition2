@@ -133,7 +133,7 @@
     <value>Get goodies</value>
   </data>
   <data name="MC.Text" xml:space="preserve">
-    <value>Most recent changes: Minor text updates</value>
+    <value>Most recent changes: Tabs, sketcher, new UI, Autosave</value>
   </data>
   <data name="More.Text" xml:space="preserve">
     <value>More</value>
@@ -145,20 +145,20 @@
     <value>Recent changes</value>
   </data>
   <data name="Social.Text" xml:space="preserve">
-    <value />
+    <value>Social Media</value>
   </data>
   <data name="Sub.Subtitle" xml:space="preserve">
-    <value>text</value>
+    <value>The Bloom channel gives you the earliest access to new features and goodies with lower stability. You can change channels, get goodies or leave below.</value>
   </data>
   <data name="TC.Text" xml:space="preserve">
     <value>Terms &amp; Conditions</value>
   </data>
   <data name="Ver.Subtitle" xml:space="preserve">
-    <value>Released: May 21, 2022
-Internal Version: 0.0.0.0
+    <value>Released: November 6th 2021
+Internal Version: 0.0.11.0
 Edition: Bloom
 
-Created by Joseph Beattie &amp; BlkDev9 </value>
+Created by Joseph Beattie &amp; BlkDev9</value>
   </data>
   <data name="Ver.Title" xml:space="preserve">
     <value>More Version Info</value>
