@@ -1,0 +1,3 @@
+Future plans/accepted suggestions:
+
+Make AtAGlance at least openable
