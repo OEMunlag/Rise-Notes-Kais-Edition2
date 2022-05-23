@@ -38,13 +38,13 @@
                     Spacing="24"
                     VerticalAlignment="Center"
                     Width="400">
-            <TextBlock x:Uid="Welcome" Text="Welcome to"
+            <TextBlock x:Uid="Welcome" Text="Welcome to "
                        HorizontalAlignment="Center"
                        Style="{StaticResource TitleTextBlockStyle}" />
             <Image HorizontalAlignment="Center"
                    Source="/Assets/IconReadme.png"
-                   Width="290" />
-            <TextBlock x:Uid="WelDesc" Text="We're glad you're here. Just need to go through a few simple steps and you'll be all up and running!"
+                   Width="269" />
+            <TextBlock x:Uid="WelDesc" Text="Welcome to Kai's spin on Rise Notes! We're glad you're here. Just need to go through a few simple steps and you'll be all up and running!"
                        HorizontalAlignment="Center"
                        Style="{StaticResource BodyTextBlockStyle}"
                        TextAlignment="Center" FontSize="14" />
