@@ -16,7 +16,7 @@
                 </ResourceDictionary>
             </ResourceDictionary.ThemeDictionaries>
             <CornerRadius x:Key="NavigationViewContentGridCornerRadius">0</CornerRadius>
-            
+
             <Style x:Key="RichEditBoxStyle1" TargetType="RichEditBox">
                 <Setter Property="Foreground" Value="{ThemeResource TextControlForeground}"/>
                 <Setter Property="Background" Value="Transparent"/>
@@ -357,14 +357,14 @@
                         <AdaptiveTrigger MinWindowWidth="720"/>
                     </VisualState.StateTriggers>
                     <VisualState.Setters>
-                        <Setter Target="FeedBack.Visibility" Value="Visible"/>
+                        <Setter Target="FeedBack.Visibility" Value="Hidden"/>
                         <Setter Target="ExtraBt.Visibility" Value="Visible"/>
                         <Setter Target="sepCl.Visibility" Value="Visible"/>
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
         </VisualStateManager.VisualStateGroups>
-        
+
         <muxc:NavigationView x:Name="NavigationViewControl"          
             
             DisplayModeChanged="NavigationViewControl_DisplayModeChanged"
@@ -400,7 +400,7 @@
                 </Grid.FocusVisualPrimaryBrush>
                 <TextBlock x:Name="fileName" x:FieldModifier="public" HorizontalAlignment="Left" Margin="20,-1,0,0" Text="New Document" Padding="0,0,0,28" VerticalAlignment="Center" FontSize="12" Height="17" Width="250" TextTrimming="CharacterEllipsis"/>
                 <TextBlock x:Name="fileTypeBar" HorizontalAlignment="Right" Margin="0,-1,155,0" Text="Text Document (.txt)" TextWrapping="Wrap" Padding="0,0,0,0" VerticalAlignment="Center" FontSize="12" Opacity="0.5"/>
-                
+
                 <Grid x:Name="colorG" HorizontalAlignment="Right" Margin="0,0,10,1" VerticalAlignment="Center" CornerRadius="3,3,3,3" Background="#0000B9FF" Padding="5,5,5,5" Height="25">
                     <TextBlock x:Name="Edit" Text="Modified"
                     x:Uid="EditText"
@@ -534,13 +534,13 @@
                 </Grid>
             </AppBarElementContainer>
         </CommandBar>
-        <CommandBar x:Name="RightAct" Margin="0,5,-4,0" Background="Transparent" Height="38" HorizontalAlignment="Right" DefaultLabelPosition="Right" Padding="0,0,0,0">
+        <CommandBar x:Name="RightAct" Margin="0,5,-4,0" Background="Transparent" Height="38" HorizontalAlignment="Right" DefaultLabelPosition="Right" Padding="0,0,0,0" Width="530">
             <AppBarElementContainer Margin="0,-11,5,0" Height="34">
                 <Grid>
-                    <FontIcon Glyph="&#xE158;" HorizontalAlignment="Center" Margin="-23,1,0,0" FontSize="18"/>
+                    <FontIcon Glyph="&#xE158;" HorizontalAlignment="Left" Margin="17,24,0,-23" FontSize="18"/>
                     <FontIcon Glyph="&#xE011;" FontSize="12" Margin="23,1,0,0" HorizontalAlignment="Center"/>
                     <muxc:MenuBar x:Name="AddImage" Height="34" Margin="0,0,0,0" >
-                        <muxc:MenuBarItem VerticalAlignment="Stretch" Margin="0,0,0,0" Width="56" Padding="0,0,0,0" Title="" CornerRadius="5,5,5,5" FontWeight="Normal" FontSize="16">
+                        <muxc:MenuBarItem VerticalAlignment="Stretch" Margin="0,0,0,0" Width="56" Padding="0,0,0,0" Title="" CornerRadius="5,5,5,5" FontWeight="Normal" FontSize="16" RenderTransformOrigin="0.482,0.088">
                             <MenuFlyoutItem x:Uid="FD" Click="MenuFlyoutItem_Click_10">
                                 <MenuFlyoutItem.Icon>
                                     <SymbolIcon Symbol="OpenLocal"/>
@@ -575,12 +575,6 @@
             </AppBarButton>
 
             <AppBarSeparator x:Name="removedSep" Margin="0,0,5,18" Width="7"/>
-
-            <AppBarButton x:Name="FeedBack" x:Uid="Feedback" Visibility="Collapsed" Click="FeedBack_Click" LabelPosition="Collapsed" VerticalAlignment="Center" CornerRadius="5,5,5,5" Margin="0,-11,5,0" Width="40" Content="" Label="" Padding="0,0,0,0">
-                <AppBarButton.Icon>
-                    <FontIcon Glyph="&#xED15;"/>
-                </AppBarButton.Icon>
-            </AppBarButton>
             <AppBarElementContainer Margin="0,-12,5,0" Width="38" Height="37">
                 <muxc:MenuBar x:Name="VisualButton" Height="37" Width="38" Margin="0,0,0,0" >
                     <muxc:MenuBarItem VerticalAlignment="Stretch" Margin="0,0,0,0" Width="38" Title="•••" Padding="0,0,0,0" CornerRadius="5,5,5,5" Height="37" FontWeight="Normal" FontSize="18">
