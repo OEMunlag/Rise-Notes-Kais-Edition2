@@ -124,15 +124,15 @@
     <value>Contribute</value>
   </data>
   <data name="InPr.Text" xml:space="preserve">
-    <value>Insider Programme</value>
+    <value>Insider_Programme</value>
   </data>
   <data name="Sf.Text" xml:space="preserve">
-    <value>Submit feedback</value>
+    <value>Submit_feedback</value>
   </data>
   <data name="Sub.Text" xml:space="preserve">
-    <value>Remember this is the earliest possible look at our app. Please submit feedback and feature requests!</value>
+    <value>This is a custom version of Pre-Alpha 1, meaning there will be bugs.  </value>
   </data>
   <data name="Welc.Text" xml:space="preserve">
-    <value>Welcome to Pre-Alpha 1!</value>
+    <value>Welcome to Rise Notes: Kai's Edition!</value>
   </data>
 </root>

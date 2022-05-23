@@ -607,8 +607,12 @@ namespace Notes
 
         private async void MenuFlyoutItem_Click_4(object sender, RoutedEventArgs e)
         {
-            ContentDialog dial = new Notes.ViewModels.ContentDialog1();
-            await dial.ShowAsync();
+            if (e is null)
+            {
+                throw new ArgumentNullException(nameof(e));
+            }
+
+
         }
 
         private async void compactOverlayButton_Click(object sender, RoutedEventArgs e)
@@ -835,7 +839,7 @@ namespace Notes
         private void MenuFlyoutItem_Click_8(object sender, RoutedEventArgs e)
         {
             var resourceLoader = Windows.ApplicationModel.Resources.ResourceLoader.GetForCurrentView();
-            
+
             if (SimpleMode == true)
             {
                 SimpleMode = false;
@@ -1094,7 +1098,7 @@ namespace Notes
         {
             txt.Document.Undo();
             Redo.IsEnabled = true;
-            changes ++;
+            changes++;
             if (changed == false)
             {
                 Undo.IsEnabled = false;
@@ -1103,7 +1107,7 @@ namespace Notes
 
         private void Redo_Click(object sender, RoutedEventArgs e)
         {
-            changes --;
+            changes--;
             txt.Document.Redo();
             if (changes == 0)
             {
@@ -1371,9 +1375,9 @@ namespace Notes
             var success = await Windows.System.Launcher.LaunchUriAsync(uriBing);
 
             if (success)
-            {}
+            { }
             else
-            {}
+            { }
         }
 
         private void MenuFlyoutItem_Click_5(object sender, RoutedEventArgs e)
