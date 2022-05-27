@@ -41,9 +41,9 @@
             <TextBlock x:Uid="Welcome" Text="Welcome to "
                        HorizontalAlignment="Center"
                        Style="{StaticResource TitleTextBlockStyle}" />
-            <Image HorizontalAlignment="Center"
+            <Image
                    Source="/Assets/IconReadme.png"
-                   Width="269" />
+                   Width="228" Height="32" />
             <TextBlock x:Uid="WelDesc" Text="Welcome to Kai's spin on Rise Notes! We're glad you're here. Just need to go through a few simple steps and you'll be all up and running!"
                        HorizontalAlignment="Center"
                        Style="{StaticResource BodyTextBlockStyle}"
@@ -51,7 +51,7 @@
             <Button x:Uid="StartSetup" Content="Start setup"
                     Click="SetupButton_Click"
                     HorizontalAlignment="Center"
-                    Style="{StaticResource AccentButtonStyle}" />
+                    Style="{StaticResource AccentButtonStyle}" RenderTransformOrigin="0.374,-0.688" Height="38" />
         </StackPanel>
     </Grid>
 </Page>
