@@ -1,9 +1,8 @@
 <!--
-    Questo file contiene le direttive di runtime usate da .NET Native. Le impostazioni predefinite sono adatte per la 
-    maggior parte degli sviluppatori, ma è possibile modificare questi parametri per cambiare il 
-    comportamento dell'ottimizzatore di .NET Native.
+    This file contains the runtime directives used by .NET Native. The default settings are suitable for the 
+    most developers, but you can change these parameters to change the behavior of the .NET Native optimizer.
 
-    Le direttive di runtime sono documentate in https://go.microsoft.com/fwlink/?LinkID=391919
+    Runtime directives are documented in https://go.microsoft.com/fwlink/?LinkID=391919
 
     Per abilitare completamente la reflection per App1.MyClass e tutti i relativi membri pubblici/privati
     <Type Name="App1.MyClass" Dynamic="Required All"/>
@@ -18,13 +17,13 @@
 <Directives xmlns="http://schemas.microsoft.com/netfx/2013/01/metadata">
   <Application>
     <!--
-      Un elemento Assembly il cui nome è "*Application*" si applica a tutti gli assembly
-      nel pacchetto dell'applicazione. Gli asterischi non sono caratteri jolly.
+      An Assembly element whose name is "*Application*" applies to all assemblies
+      in the application package. Asterisks are not wildcards.
     -->
     <Assembly Name="*Application*" Dynamic="Required All" />
     
     
-    <!-- Aggiungere qui le direttive di runtime specifiche dell'applicazione. -->
+    <!-- Add application-specific runtime directives here. -->
 
 
   </Application>
