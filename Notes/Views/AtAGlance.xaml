@@ -19,7 +19,7 @@
             <TextBlock x:Uid="RecText" Text="Unfortunately, recents aren't available yet" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="24" FontWeight="SemiBold" Margin="0,65,0,0"/>
             <TextBlock x:Uid="RecTextSub" Text="It has been a few months with no updates here." VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" FontWeight="SemiBold" Margin="0,130,0,0" Padding="0,0,0,0" Opacity="0.6"/>
         </Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="60,65,0,0" Text="At a glance" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" FontWeight="SemiBold" Width="152"/>
+        <TextBlock HorizontalAlignment="Left" Margin="60,65,0,0" Text="At a glance" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="30" FontWeight="SemiBold" Width="644"/>
         <TextBlock HorizontalAlignment="Left" x:Uid="Cs" Margin="80,150,0,0" Text="Create something:" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="17" FontWeight="SemiBold" Width="126"/>
         <StackPanel x:Name="_new" Height="87" Margin="54,130,54,0" VerticalAlignment="Top" CornerRadius="10,10,10,10" BorderBrush="#19000000" BorderThickness="1,1,1,1" Padding="-25,0,0,0" MinWidth="500">
             <StackPanel.Shadow>
