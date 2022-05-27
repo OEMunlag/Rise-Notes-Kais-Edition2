@@ -127,7 +127,7 @@
     <value>Just two clicks away!</value>
   </data>
   <data name="Description.Text" xml:space="preserve">
-    <value>You’ll need to give us permission to associate your files with Rise Notes in order for this to be possible. Click ‘Accept’ to continue.  This app will then close, reopen afterwards to start using.</value>
+    <value>You’ll need to give us permission to associate your files with Rise Notes in order for this to be possible. Click ‘Accept’ to continue.   After giving the said permission, the app will close.  Reopen and start typing away! </value>
   </data>
   <data name="Disclaimer.Text" xml:space="preserve">
     <value>Disclaimer Notice:</value>
@@ -136,7 +136,7 @@
     <value>Rise Software's Terms and Conditions</value>
   </data>
   <data name="text2.Text" xml:space="preserve">
-    <value>Rise Notes - Terms and Conditions</value>
+    <value>Rise Notes Original - Terms and Conditions</value>
   </data>
   <data name="text3.Text" xml:space="preserve">
     <value>Last Updated: August 2021</value>
@@ -148,6 +148,6 @@
     <value>Decline</value>
   </data>
   <data name="textTitle2.Text" xml:space="preserve">
-    <value>Open files with Rise Notes</value>
+    <value>Open files with Rise Notes: Kai's Edition</value>
   </data>
 </root>
