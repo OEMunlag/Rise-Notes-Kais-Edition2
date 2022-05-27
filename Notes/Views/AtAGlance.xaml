@@ -14,7 +14,7 @@
                 <EntranceThemeTransition IsStaggeringEnabled="True" />
             </TransitionCollection>
         </Grid.ChildrenTransitions>
-        <Grid BorderThickness="1,1,1,1" Margin="54,330,0,54"  CornerRadius="9,9,9,9" BorderBrush="#19000000" Padding="0,20,0,0" HorizontalAlignment="Left" Width="1196" Background="#0C939393" MinHeight="250">
+        <Grid BorderThickness="1,1,1,1" Margin="54,330,0,54"  CornerRadius="9,9,9,9" BorderBrush="#19000000" Padding="0,20,0,0" HorizontalAlignment="Left" Width="1216" Background="#0C939393" MinHeight="250">
             <Image Source="/Assets/clock.png" Margin="0,0,0,80" HorizontalAlignment="Center" VerticalAlignment="Center" Width="85" Height="85" MinHeight="85" MinWidth="85"/>
             <TextBlock x:Uid="RecText" Text="Unfortunately, recents aren't available yet" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="24" FontWeight="SemiBold" Margin="0,65,0,0"/>
             <TextBlock x:Uid="RecTextSub" Text="Hopefully we won't be long adding this feature." VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="18" FontWeight="SemiBold" Margin="0,130,0,0" Padding="0,0,0,0" Opacity="0.6"/>
