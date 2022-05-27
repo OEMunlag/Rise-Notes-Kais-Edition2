@@ -127,7 +127,7 @@
     <value>Just two clicks away!</value>
   </data>
   <data name="Description.Text" xml:space="preserve">
-    <value>You’ll need to give us permission to associate your files with Rise Notes in order for this to be possible. Click ‘Accept’ to continue.   After giving the said permission, the app will close.  Reopen and start typing away! </value>
+    <value>You will need to give this app permission to associate your files with Rise Notes in order for this to be possible. Click ‘Accept’ to continue.   After giving the said permission, the app will close.  Reopen and start typing away! </value>
   </data>
   <data name="Disclaimer.Text" xml:space="preserve">
     <value>Disclaimer Notice:</value>

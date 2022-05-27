@@ -118,16 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Ch.Text" xml:space="preserve">
-    <value>Changelog</value>
+    <value>Changelog_Text_Removed</value>
   </data>
   <data name="Cont.Text" xml:space="preserve">
-    <value>Contribute</value>
+    <value>Contribute_Text_Removed</value>
   </data>
   <data name="InPr.Text" xml:space="preserve">
-    <value>Insider_Programme</value>
+    <value>Insider_Programme_Text_Removed</value>
   </data>
   <data name="Sf.Text" xml:space="preserve">
-    <value>Submit_feedback</value>
+    <value>Submit_feedback_Text_Removed</value>
   </data>
   <data name="Sub.Text" xml:space="preserve">
     <value>Version: 0.0.1.1.canary.revision2</value>
