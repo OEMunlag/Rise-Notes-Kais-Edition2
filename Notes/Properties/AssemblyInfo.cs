@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("RiseNotes")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Rise Software©")]
+[assembly: AssemblyCompany("Rise Software©, Modified by KaidudePlays")]
 [assembly: AssemblyProduct("Rise Notes")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyCopyright("Copyright ©  2021/2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
