@@ -91,7 +91,9 @@ namespace Notes
                         var result = await saveDialog.ShowAsync();
                         if (result == ContentDialogResult.Secondary)
                         {
+#pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
                             ApplicationView.GetForCurrentView().TryConsolidateAsync();
+#pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
                         }
                         if (result == ContentDialogResult.Primary)
                         {
@@ -104,7 +106,9 @@ namespace Notes
                 }
                 else
                 {
+#pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
                     ApplicationView.GetForCurrentView().TryConsolidateAsync();
+#pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
                 }
 
             };
@@ -556,7 +560,9 @@ namespace Notes
                 changed = false;
                 Edit.Opacity = 0;
             }
+#pragma warning disable CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
             ApplicationView.GetForCurrentView().TryConsolidateAsync();
+#pragma warning restore CS4014 // Because this call is not awaited, execution of the current method continues before the call is completed. Consider applying the 'await' operator to the result of the call.
         }
 
         private List<string> fonts = new List<string>()
@@ -605,7 +611,9 @@ namespace Notes
             Save();
         }
 
+#pragma warning disable CS1998 // This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
         private async void MenuFlyoutItem_Click_4(object sender, RoutedEventArgs e)
+#pragma warning restore CS1998 // This async method lacks 'await' operators and will run synchronously. Consider using the 'await' operator to await non-blocking API calls, or 'await Task.Run(...)' to do CPU-bound work on a background thread.
         {
             if (e is null)
             {
