@@ -12,13 +12,8 @@
             <Border x:Name="AppTitleBar"
                 IsHitTestVisible="True"
                 VerticalAlignment="Top" Background="#00000000" Margin="-6,16,0,0">
-                <StackPanel Orientation="Horizontal" Margin="-8,0,0,0">
-                    <Image x:Name="AppFontIcon"
-                    HorizontalAlignment="Left" 
-                    VerticalAlignment="Center"
-                    Source="/Assets/Icon.png" 
-                    Width="16" 
-                    Margin="0,0,0,0" Height="17"/>
+                <StackPanel Orientation="Horizontal" Margin="21,0,0,0">
+                    
                     <TextBlock x:Name="Title"
                     Text="Rise"
                     VerticalAlignment="Center"
