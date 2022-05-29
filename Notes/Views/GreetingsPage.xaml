@@ -38,17 +38,17 @@
                     Spacing="24"
                     VerticalAlignment="Center"
                     Width="400">
-            <TextBlock x:Uid="Welcome" Text="Welcome to "
+            <TextBlock x:Uid="Welcome" Text="Welcome to"
                        HorizontalAlignment="Center"
-                       Style="{StaticResource TitleTextBlockStyle}" />
+                       Style="{StaticResource TitleTextBlockStyle}" SelectionChanged="TextBlock_SelectionChanged_2" />
             <Image
                    Source="/Assets/IconReadme.png"
-                   Width="228" Height="32" />
-            <TextBlock x:Uid="WelDesc" Text="Welcome to Rise Notes: Kai's Edition!  Before you can get to making really nice notes, you must complete set up. "
+                   Width="250" Height="64" />
+            <TextBlock x:Uid="WelDesc" Text="Welcome to Rise Notes: Kai's Edition! Before you can get to making really nice notes, you must complete set up. "
                        HorizontalAlignment="Center"
                        Style="{StaticResource BodyTextBlockStyle}"
                        TextAlignment="Center" FontSize="14" />
-            <Button x:Uid="StartSetup" Content="Start setup"
+            <Button x:Uid="StartSetup" Content="Start setup!"
                     Click="SetupButton_Click"
                     HorizontalAlignment="Center"
                     Style="{StaticResource AccentButtonStyle}" RenderTransformOrigin="0.374,-0.688" Height="38" />
