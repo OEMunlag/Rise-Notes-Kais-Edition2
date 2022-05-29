@@ -21,7 +21,7 @@
                 <FontIcon Glyph="&#xE10A;" Margin="1,-1,1,3" VerticalAlignment="Center" />
             </AppBarButton.Icon>
         </AppBarButton>
-        <Image Source="/Assets/IconReadme.png" Margin="0,58,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="272" Height="50" RenderTransformOrigin="0.502,-0.24"/>
+        <Image Source="/Assets/IconReadme.png" Margin="0,36,0,0" HorizontalAlignment="Center" VerticalAlignment="Top" Width="320" Height="67" RenderTransformOrigin="0.502,-0.24"/>
         <TextBlock x:Uid="/Welcome/Welc" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,140,0,0" FontSize="24" FontWeight="SemiBold"/>
         <RichTextBlock HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,185,0,0" FontSize="14" FontWeight="SemiBold" Width="426" TextWrapping="Wrap" TextAlignment="Center" Opacity="0.6">
             <Paragraph>

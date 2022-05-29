@@ -25,10 +25,10 @@
                     Margin="15,0,0,0"
                     Style="{StaticResource CaptionTextBlockStyle}" FontWeight="SemiBold"/>
                     <TextBlock x:Name="TitleApp"
-                    Text="Notes"
+                    Text="Notes: Kai's Edition"
                     VerticalAlignment="Center"
                     Margin="2,0,0,0"
-                    Style="{StaticResource CaptionTextBlockStyle}" FontWeight="SemiLight"/>
+                    Style="{StaticResource CaptionTextBlockStyle}" FontWeight="SemiBold"/>
                 </StackPanel>
             </Border>
         </Grid>
