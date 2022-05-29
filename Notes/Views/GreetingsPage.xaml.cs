@@ -41,5 +41,10 @@ namespace Notes
         {
 
         }
+
+        private void TextBlock_SelectionChanged_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
