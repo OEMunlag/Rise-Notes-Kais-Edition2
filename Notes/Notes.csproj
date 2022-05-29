@@ -26,8 +26,7 @@
     <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
     <AppxPackageDir>C:\Users\kaidu\Documents\Rise-Notes-bloom_build-main-\output\</AppxPackageDir>
     <AppxSymbolPackageEnabled>True</AppxSymbolPackageEnabled>
-    <PackageCertificateThumbprint>
-    </PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>5CAF8001F5AB51A3DE4ED6A46CF667C18AFFBBFD</PackageCertificateThumbprint>
     <AppxPackageSigningTimestampDigestAlgorithm>SHA256</AppxPackageSigningTimestampDigestAlgorithm>
     <AppInstallerUri>https://github.com/BlkDev9/Notes/releases</AppInstallerUri>
     <PackageCertificateKeyFile>Notes_TemporaryKey.pfx</PackageCertificateKeyFile>

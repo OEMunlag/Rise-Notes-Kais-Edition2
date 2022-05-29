@@ -9,7 +9,7 @@
 
   <Identity
     Name="35c52142-9b91-4581-8bf3-4418b913ff63"
-    Publisher="CN=Rise Software/KaidudePlays"
+    Publisher="CN=KaidudePlays"
     Version="0.0.2.0" />
 
   <mp:PhoneIdentity PhoneProductId="35c52142-9b91-4581-8bf3-4418b913ff96" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
