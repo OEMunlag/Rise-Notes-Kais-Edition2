@@ -24,7 +24,7 @@
     <AppxBundle>Always</AppxBundle>
     <AppxBundlePlatforms>x64</AppxBundlePlatforms>
     <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
-    <AppxPackageDir>C:\Users\black\Downloads\notes\Canary\2\</AppxPackageDir>
+    <AppxPackageDir>C:\Users\kaidu\Documents\Rise-Notes-bloom_build-main-\output\</AppxPackageDir>
     <AppxSymbolPackageEnabled>True</AppxSymbolPackageEnabled>
     <PackageCertificateThumbprint>
     </PackageCertificateThumbprint>
