@@ -44,7 +44,7 @@
             <Image
                    Source="/Assets/IconReadme.png"
                    Width="228" Height="32" />
-            <TextBlock x:Uid="WelDesc" Text="Welcome to Kai's spin on Rise Notes! We're glad you're here. Just need to go through a few simple steps and you'll be all up and running!"
+            <TextBlock x:Uid="WelDesc" Text="Welcome to Rise Notes: Kai's Edition!  Before you can get to making really nice notes, you must complete set up. "
                        HorizontalAlignment="Center"
                        Style="{StaticResource BodyTextBlockStyle}"
                        TextAlignment="Center" FontSize="14" />
