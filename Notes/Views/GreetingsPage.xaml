@@ -11,8 +11,8 @@
         <Grid Canvas.ZIndex="1">
             <Border x:Name="AppTitleBar"
                 IsHitTestVisible="True"
-                VerticalAlignment="Top" Background="#00000000" Margin="16,16,0,0">
-                <StackPanel Orientation="Horizontal">
+                VerticalAlignment="Top" Background="#00000000" Margin="-6,16,0,0">
+                <StackPanel Orientation="Horizontal" Margin="-8,0,0,0">
                     <Image x:Name="AppFontIcon"
                     HorizontalAlignment="Left" 
                     VerticalAlignment="Center"
