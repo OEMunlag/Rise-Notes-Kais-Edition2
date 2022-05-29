@@ -10,13 +10,13 @@
   <Identity
     Name="35c52142-9b91-4581-8bf3-4418b913ff63"
     Publisher="CN=Rise Software/KaidudePlays"
-    Version="0.0.1.0" />
+    Version="0.0.2.0" />
 
   <mp:PhoneIdentity PhoneProductId="35c52142-9b91-4581-8bf3-4418b913ff96" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Rise Notes (Kai&apos;s Edition)</DisplayName>
-    <PublisherDisplayName>Rise Software</PublisherDisplayName>
+    <PublisherDisplayName>Rise Software/KaidudePlays</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

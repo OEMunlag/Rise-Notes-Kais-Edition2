@@ -130,7 +130,7 @@
     <value>Submit_feedback_Text_Removed</value>
   </data>
   <data name="Sub.Text" xml:space="preserve">
-    <value>0.0.1.1.canary.revision2  |  Github Release </value>
+    <value>0.0.2.0.canary.revision0  |  Active Development Version</value>
   </data>
   <data name="Welc.Text" xml:space="preserve">
     <value>Version Page: Rise Notes: Kai's Edition (Canary)</value>
