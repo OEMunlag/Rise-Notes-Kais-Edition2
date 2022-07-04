@@ -498,7 +498,7 @@
             <AppBarElementContainer Margin="0,-13,0,0" Width="57" Height="34">
                 <Grid Background="#00000000">
                     <Grid>
-                        <FontIcon Glyph="&#xE130;" Margin="-20,0,0,0" FontSize="16"/>
+                        <FontIcon Glyph="&#xE130;" Margin="-20,0,-22,-22" FontSize="16" RenderTransformOrigin="1.232,1.594"/>
                         <FontIcon Glyph="&#xE099;" Margin="25,0,0,0" FontSize="12"/>
                     </Grid>
                     <muxc:MenuBar Height="34" Width="57" Margin="0,0,0,0" >
@@ -529,7 +529,7 @@
             <AppBarSeparator x:Name="sepCl" Visibility="Collapsed" Margin="5,0,0,18" Width="7" />
             <AppBarElementContainer x:Name="ExtraBt" Visibility="Collapsed" VerticalAlignment="Center" Height="35" Margin="5,-12,0,0" Width="235">
                 <Grid HorizontalAlignment="Left" VerticalAlignment="Center" Width="230" Margin="-2,0,0,0">
-                    <AutoSuggestBox x:Name="FontBox" TextChanged="AutoSuggestBox_TextChanged" SuggestionChosen="AutoSuggestBox_SuggestionChosen" HorizontalAlignment="Left" Margin="5,1,0,2" Width="115" PlaceholderText="Segoe UI" Padding="0,0,0,0" Height="32" Background="#19787878" BorderBrush="{x:Null}" CornerRadius="5,5,5,5" FontSize="13" FontWeight="Normal" Opacity="0.7" GotFocus="FontBox_GotFocus" LostFocus="FontBox_LostFocus" Text="Segoe UI"/>
+                    <AutoSuggestBox x:Name="FontBox" TextChanged="AutoSuggestBox_TextChanged" SuggestionChosen="AutoSuggestBox_SuggestionChosen" HorizontalAlignment="Left" Margin="5,0,0,0" Width="115" PlaceholderText="Segoe UI" Padding="0,0,0,0" Height="32" Background="#19787878" BorderBrush="{x:Null}" CornerRadius="5,5,5,5" FontSize="13" FontWeight="Normal" Opacity="0.7" GotFocus="FontBox_GotFocus" LostFocus="FontBox_LostFocus" Text="Segoe UI" VerticalAlignment="Center"/>
                     <ComboBox x:Name="FontS" ItemsSource="{x:Bind Size}" HorizontalAlignment="Right" Margin="0,1,41,2" Width="64" PlaceholderText="16" Padding="11,0,0,3" Height="32" Background="#19787878" BorderBrush="{x:Null}" CornerRadius="5,5,5,5" FontSize="13" FontWeight="Normal" Opacity="0.7" IsEditable="True" Loaded="Combo3_Loaded" TextSubmitted="FontS_TextSubmitted" LostFocus="FontS_LostFocus" Text="16"/>
                 </Grid>
             </AppBarElementContainer>
@@ -537,7 +537,7 @@
         <CommandBar x:Name="RightAct" Margin="0,5,-4,0" Background="Transparent" Height="38" HorizontalAlignment="Right" DefaultLabelPosition="Right" Padding="0,0,0,0" Width="530">
             <AppBarElementContainer Margin="0,-11,5,0" Height="34">
                 <Grid>
-                    <FontIcon Glyph="&#xE158;" HorizontalAlignment="Left" Margin="17,24,0,-23" FontSize="18"/>
+                    <FontIcon Glyph="&#xE158;" HorizontalAlignment="Left" Margin="17,20,0,-19" FontSize="18"/>
                     <FontIcon Glyph="&#xE011;" FontSize="12" Margin="23,1,0,0" HorizontalAlignment="Center"/>
                     <muxc:MenuBar x:Name="AddImage" Height="34" Margin="0,0,0,0" >
                         <muxc:MenuBarItem VerticalAlignment="Stretch" Margin="0,0,0,0" Width="56" Padding="0,0,0,0" Title="" CornerRadius="5,5,5,5" FontWeight="Normal" FontSize="16" RenderTransformOrigin="0.482,0.088">

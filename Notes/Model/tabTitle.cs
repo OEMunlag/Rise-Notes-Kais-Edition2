@@ -6,7 +6,7 @@ namespace Notes.Model
     {
         public tabTitle()
         {
-            tit = "Text document ";
+            tit = "Text Document ";
         }
         public string tit { get; set; }
     }
