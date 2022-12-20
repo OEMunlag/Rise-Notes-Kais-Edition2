@@ -11,24 +11,19 @@
         <Grid Canvas.ZIndex="1">
             <Border x:Name="AppTitleBar"
                 IsHitTestVisible="True"
-                VerticalAlignment="Top" Background="#00000000" Margin="16,16,0,0">
-                <StackPanel Orientation="Horizontal">
-                    <Image x:Name="AppFontIcon"
-                    HorizontalAlignment="Left" 
-                    VerticalAlignment="Center"
-                    Source="/Assets/Icon.png" 
-                    Width="16" 
-                    Margin="0,0,0,0" Height="17"/>
+                VerticalAlignment="Top" Background="#00000000" Margin="-6,16,0,0">
+                <StackPanel Orientation="Horizontal" Margin="21,0,0,0">
+                    
                     <TextBlock x:Name="Title"
                     Text="Rise"
                     VerticalAlignment="Center"
                     Margin="15,0,0,0"
                     Style="{StaticResource CaptionTextBlockStyle}" FontWeight="SemiBold"/>
                     <TextBlock x:Name="TitleApp"
-                    Text="Notes"
+                    Text="Notes: Kai's Edition"
                     VerticalAlignment="Center"
                     Margin="2,0,0,0"
-                    Style="{StaticResource CaptionTextBlockStyle}" FontWeight="SemiLight"/>
+                    Style="{StaticResource CaptionTextBlockStyle}" FontWeight="SemiBold"/>
                 </StackPanel>
             </Border>
         </Grid>
@@ -40,18 +35,18 @@
                     Width="400">
             <TextBlock x:Uid="Welcome" Text="Welcome to"
                        HorizontalAlignment="Center"
-                       Style="{StaticResource TitleTextBlockStyle}" />
-            <Image HorizontalAlignment="Center"
+                       Style="{StaticResource TitleTextBlockStyle}" SelectionChanged="TextBlock_SelectionChanged_2" />
+            <Image
                    Source="/Assets/IconReadme.png"
-                   Width="290" />
-            <TextBlock x:Uid="WelDesc" Text="We're glad you're here. Just need to go through a few simple steps and you'll be all up and running!"
+                   Width="250" Height="64" />
+            <TextBlock x:Uid="WelDesc" Text="Welcome to Rise Notes: Kai's Edition! Before you can get to making really nice notes, you must complete set up. "
                        HorizontalAlignment="Center"
                        Style="{StaticResource BodyTextBlockStyle}"
                        TextAlignment="Center" FontSize="14" />
-            <Button x:Uid="StartSetup" Content="Start setup"
+            <Button x:Uid="StartSetup" Content="Start setup!"
                     Click="SetupButton_Click"
                     HorizontalAlignment="Center"
-                    Style="{StaticResource AccentButtonStyle}" />
+                    Style="{StaticResource AccentButtonStyle}" RenderTransformOrigin="0.374,-0.688" Height="38" />
         </StackPanel>
     </Grid>
 </Page>

@@ -44,7 +44,7 @@
             <Grid.Shadow>
                 <ThemeShadow />
             </Grid.Shadow>
-            <InkToolbar x:Name="tools" TargetInkCanvas="{x:Bind inkCanvas}"  VerticalAlignment="Center" HorizontalAlignment="Left" Visibility="Visible" Margin="3,0,0,0" FontFamily="Segoe Fluent Icons" BorderThickness="0,0,0,0"/>
+            <InkToolbar x:Name="tools" TargetInkCanvas="{x:Bind inkCanvas}"  VerticalAlignment="Center" HorizontalAlignment="Left" Visibility="Visible" FontFamily="Segoe Fluent Icons" BorderThickness="0,0,0,0" Height="50" Width="215" Margin="-9,0,0,0"/>
         </Grid>
         <StackPanel VerticalAlignment="Bottom" Height="55" Margin="0,0,0,0" BorderBrush="#0C000000" BorderThickness="0,1,0,0" Background="{ThemeResource SystemControlAltMediumLowAcrylicElementMediumBrush}" MinWidth="600" >
             <TextBlock x:Uid="sk" VerticalAlignment="Center" Margin="65,17,0,0" HorizontalAlignment="Left" Opacity="0.6" Text="Export Sketch" FontFamily="Segoe UI Variable Display" FontWeight="SemiBold"/>

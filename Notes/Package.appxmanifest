@@ -8,14 +8,14 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="57c23142-9a91-4581-8bf3-4418b913ff96"
-    Publisher="CN=Rise Software/KaidudePlays"
-    Version="0.0.0.0" />
+    Name="35c52142-9b91-RiseNotes-KaisEdition-Beta-1"
+    Publisher="CN=KaidudePlays"
+    Version="0.0.2.0" />
 
   <mp:PhoneIdentity PhoneProductId="35c52142-9b91-4581-8bf3-4418b913ff96" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>Rise Notes (Kai&apos;s Edition)</DisplayName>
+    <DisplayName>Rise Notes (Kai&apos;s Edition Canary)</DisplayName>
     <PublisherDisplayName>Rise Software/KaidudePlays</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
@@ -33,10 +33,10 @@
       Executable="$targetnametoken$.exe"
       EntryPoint="Rise Notes.App">
       <uap:VisualElements
-        DisplayName="Rise Notes (Kai&apos;s Edition)"
+        DisplayName="Rise Notes (Kai&apos;s Edition Canary)"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="Simple, modern, notes-taking app!"
+        Description="A fork of the Rise Notes app by Rise Software, modified by KaidudePlays."
         BackgroundColor="transparent">
         <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png">
           <uap:ShowNameOnTiles>
@@ -80,5 +80,6 @@
 	<Capabilities>
 		<rescap:Capability Name="confirmAppClose" />
 		<rescap:Capability Name="broadFileSystemAccess" />
+		<uap:Capability Name="picturesLibrary"/>
 	</Capabilities>
 </Package>

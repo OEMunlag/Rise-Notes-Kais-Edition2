@@ -121,33 +121,33 @@
     <value>Continue</value>
   </data>
   <data name="desc2.Text" xml:space="preserve">
-    <value>Open your documents anywhere</value>
+    <value>Make new documents and open existing ones from anywhere</value>
   </data>
   <data name="desc3.Text" xml:space="preserve">
-    <value>Just two clicks away!</value>
+    <value>Just some short, easy clicks away!</value>
   </data>
   <data name="Description.Text" xml:space="preserve">
-    <value>You’ll need to give us permission to associate your files with Rise Notes in order for this to be possible. Click ‘Accept’ to continue</value>
+    <value>You will need to give this app permission to associate your files with this app in order for this to be possible. Click ‘Accept’ to continue.   After giving the said permission, the app will close.  Reopen and start typing away!  </value>
   </data>
   <data name="Disclaimer.Text" xml:space="preserve">
-    <value>Disclaimer:</value>
+    <value>Important Note:</value>
   </data>
   <data name="text1.Text" xml:space="preserve">
-    <value>Terms and Conditions</value>
+    <value>Rise Software's Terms and Conditions</value>
   </data>
   <data name="text2.Text" xml:space="preserve">
-    <value>Rise Notes - Terms and Conditions</value>
+    <value>The Original Terms and Conditions of Rise Notes</value>
   </data>
   <data name="text3.Text" xml:space="preserve">
     <value>Last Updated: August 2021</value>
   </data>
   <data name="textBut1.PrimaryButtonText" xml:space="preserve">
-    <value>Accept</value>
+    <value>Accept and Continue to Settings</value>
   </data>
   <data name="textBut2.SecondaryButtonText" xml:space="preserve">
-    <value>Decline</value>
+    <value>Decline and Continue</value>
   </data>
   <data name="textTitle2.Text" xml:space="preserve">
-    <value>Open files with Rise Notes</value>
+    <value>Open files with Rise Notes: Kai's Edition</value>
   </data>
 </root>

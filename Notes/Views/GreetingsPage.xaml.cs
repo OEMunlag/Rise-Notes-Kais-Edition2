@@ -36,5 +36,20 @@ namespace Notes
             await dial.ShowAsync();
             this.Frame.Navigate(typeof(StartPage));
         }
+
+        private void TextBlock_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TextBlock_SelectionChanged_1(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TextBlock_SelectionChanged_2(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
